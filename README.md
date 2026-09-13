@@ -32,5 +32,5 @@ O usuário pode pesquisar um Pokémon pelo nome e visualizar seus principais dad
 
 ## Links
 
-- **Aplicação no GitHub Pages:** COLOQUE_O_LINK_AQUI
+- **Aplicação no GitHub Pages:** https://pedrovianna08.github.io/pokemon-api/
 - **Repositório:** https://github.com/PedroVianna08/pokemon-api
