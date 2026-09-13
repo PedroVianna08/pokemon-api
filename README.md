@@ -26,7 +26,7 @@ O usuário pode pesquisar um Pokémon pelo nome e visualizar seus principais dad
 ## Como executar localmente
 
 1. Clone o repositório:
-   `git clone URL_DO_REPOSITORIO`
+   `git clone https://github.com/PedroVianna08/pokemon-api.git`
 
 2. Abra o arquivo `index.html` no navegador.
 
