@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PokéBusca</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="logo">
+            <span class="pokeball">⚪</span>
+            <span>PokéBusca</span>
+        </div>
+
+        <p>Consulte informações sobre seus Pokémon favoritos</p>
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+
+        <section class="search-section">
+
+            <h1>Pesquise um Pokémon</h1>
+
+            <p class="description">
+                Digite o nome de um Pokémon para consultar suas informações.
+            </p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="campo-busca"
+                    placeholder="Ex: pikachu"
+                    autocomplete="off"
+                >
+
+                <button id="botao-buscar">
+                    Buscar
+                </button>
+
+            </div>
+
+            <p class="examples">
+                Exemplos: pikachu, charizard, mewtwo, ditto
+            </p>
+
+        </section>
+
+
+        <!-- ÁREA ONDE O RESULTADO APARECE -->
+        <section id="resultado" class="result-area">
+
+            <div class="welcome-card">
+
+                <div class="welcome-icon">
+                    🔎
+                </div>
+
+                <h2>Faça uma pesquisa</h2>
+
+                <p>
+                    Digite o nome de um Pokémon acima e clique em
+                    <strong>Buscar</strong>.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            Projeto acadêmico utilizando a
+            <strong>PokéAPI</strong>
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
