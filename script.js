@@ -235,3 +235,5 @@ campoBusca.addEventListener("keydown", function (evento) {
     }
 
 });
+
+// Consulta de dados realizada através da PokéAPI.
